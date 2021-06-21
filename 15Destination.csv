@@ -1,0 +1,16 @@
+Destination,Feedback_Score,AvgRating,No_of_Hotels,Most_Visited_Place
+Lake District,10,5,10,"a, b, c"
+Peak District,9,5,15,"d, e"
+Cornwall,5,1,8,f
+Yorkshire,8,3,16,"g, h"
+Isle Of Wight,4,2,10,"i, j"
+Scottish Highlands,8,5,6,k
+Jurassic Coast,3,4,5,"l,m"
+Cotswolds,1,2,14,"n, o"
+Hebrides,4,2,7,p
+North Wales,10,4,5,q
+Belfast,7,3,12,"r,s"
+Kent,5,3,30,t
+Norfolk,8,4,10,"u,v"
+London,9,5,25,"w,x"
+Sussex,8,5,14,"y,z"
