@@ -1,0 +1,50 @@
+> #1.
+> x <- c(1,2,3,4,5)
+>  y <- c(6,7,8,9,10)
+> z <- c(11,12,13,14,15)
+>  a <- cbind(x,y,z)
+>  print(a)
+     x  y  z
+[1,] 1  6 11
+[2,] 2  7 12
+[3,] 3  8 13
+[4,] 4  9 14
+[5,] 5 10 15
+> 
+> 
+> #2.
+> matplot(as.data.frame(a),type="b")
+> Emp = data.frame(name = c("Ali", "Lewis", "Emma", "Amelia", "Tom"),
++ age = c(32,27,21,30,23),
++ gender = c("Male", "Male", "Female", "Female", "Male"),
++ role = c("Software Engineer", "Receptionist ","Hardware Technician", "Data Scientist", "IT Manager"),
++ Length_of_service = c("09 months", "18 months", "6 months", "36 months", "48 months")
++  )
+> print(Emp)
+    name age gender                role Length_of_service
+1    Ali  32   Male   Software Engineer         09 months
+2  Lewis  27   Male       Receptionist          18 months
+3   Emma  21 Female Hardware Technician          6 months
+4 Amelia  30 Female      Data Scientist         36 months
+5    Tom  23   Male          IT Manager         48 months
+> 
+> 
+> #3
+>  library("ggplot2")
+>  x <- 1:20 
+> y <- x*x
+> qplot(x,y, xlab = "Numbers",
++ ylab = "Squares")
+> qplot(x, y, xlab = "Numbers",
++  ylab = "Squares", geom=c("point", "line"))
+> 
+> 
+> #4
+> data <- data.frame(
++ subject= c("SQL", "WEB", "C++", "Java", "Networking"),  
++  marks = c(65, 73, 81, 45, 97)
++  )
+>  ggplot(data, aes(x=subject, y=marks)) + 
++ geom_bar(stat = "identity")
+> save.image("C:\\Users\\Learner\\Documents\\ProgramwithR")
+> 
